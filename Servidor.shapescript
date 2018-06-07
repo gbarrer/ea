@@ -5,8 +5,11 @@ shape main{
 shape label
 {
  setOrigin("SW",3,0); 
- println("#stereotype#");
+ //println("#stereotype#");
  println("#NAME#");
- println("#TAG:versión#");	
+ println("#TAG:Procesador#");	
+ print("#TAG:Memoria#");	
+ print(" ");	
+ println("#TAG:Disco#");	
  println("#notes#");
 }
