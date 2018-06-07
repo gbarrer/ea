@@ -1,0 +1,12 @@
+shape main{
+	image("db",0,0,100,100);
+}
+
+shape label
+{
+ setOrigin("SW",3,0); 
+ println("#stereotype#");
+ println("#NAME#");
+ println("#TAG:Version#");	
+ println("#notes#");
+}
