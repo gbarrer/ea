@@ -1,0 +1,10 @@
+shape main{
+	image("hard-drive-external",0,0,100,100);
+}
+
+shape label
+{
+ setOrigin("SW",3,0); 
+ println("#stereotype#");
+ println("#NAME#"); 
+}
