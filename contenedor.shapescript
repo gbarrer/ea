@@ -1,0 +1,24 @@
+shape main{
+	image("packaging",0,0,100,100);
+	//setorigin("CENTER",100,100);
+	//setOrigin("SW",0,0); 
+	//h_align="center";
+    //print("#name#");
+	//addsubshape("name2","center");
+}
+/*
+shape name2
+{
+			h_align="center";
+	        addsubshape("name2","center");
+			print("#name#");
+}
+*/
+
+shape label
+{
+ setOrigin("SW",3,0); 
+ println("#stereotype#");
+ println("#NAME#"); 
+}
+ 
